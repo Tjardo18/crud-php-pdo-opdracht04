@@ -21,10 +21,10 @@
             <div class="inputVeld">
                 <label for="nagelkleur">
                     Kies 4 basiskleuren voor uw nagels:<br>
-                    <input type="color" id="nagelkleur" name="nagelkleur" value="#f0b7b7">
-                    <input type="color" id="nagelkleur" name="nagelkleur" value="#917aff">
-                    <input type="color" id="nagelkleur" name="nagelkleur" value="#ff00ea">
-                    <input type="color" id="nagelkleur" name="nagelkleur" value="#fbff00">
+                    <input type="color" id="nagelkleur" name="nagelkleur[]" value="#f0b7b7">
+                    <input type="color" id="nagelkleur" name="nagelkleur[]" value="#917aff">
+                    <input type="color" id="nagelkleur" name="nagelkleur[]" value="#ff00ea">
+                    <input type="color" id="nagelkleur" name="nagelkleur[]" value="#fbff00">
                 </label>
             </div>
 
@@ -43,9 +43,9 @@
             </div>
 
             <div class="inputVeld">
-                <label for="afspraak">
+                <label for="afspraakDate">
                     Afspraak datum:
-                    <input type="datetime-local" name="afspraak" id="afspraak" required>
+                    <input type="datetime-local" name="afspraakDate" id="afspraakDate" required>
                 </label>
             </div>
 
