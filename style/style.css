@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 5px 5px 16px 2px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.read {
+    margin-top: 10px;
+    width: 800px;
+}
+
+.inputVeld {
+    width: 450px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
+input[type=text],
+input[type=number],
+input[type=datetime-local],
+input[type=range],
+input[type=email],
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=color] {
+    width: 20%;
+    margin-right: 15px;
+}
+
+input[type=range] {
+    width: 92%;
+    margin-right: 10px;
+}
+
+.display {
+    display: flex;
+}
+
+#cijferOutput {
+    margin-top: 16px;
+    width: 1px;
+}
+
+.button {
+    width: 100%;
+    background-color: #0202d0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.55s;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #0303a7;
+}
+
+table,
+th,
+td {
+    border: #000000 solid 1px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 2px 7px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 525px;
+}
+
+.truncate {
+    width: 100%;
+    background-color: #d00202;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.55s;
+}
+
+.truncate:hover {
+    background-color: #b60202;
+}
