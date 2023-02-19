@@ -5,5 +5,5 @@ function tijdValue() {
         time = today.toISOString();
 
     document.querySelector("#timeSend").value = time;
-    
+
 }
