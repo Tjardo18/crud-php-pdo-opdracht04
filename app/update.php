@@ -98,7 +98,7 @@ $result = $statement->fetch(PDO::FETCH_OBJ);
         <h1>Update Afspraak</h1>
         <form action="update.php" method="POST">
 
-        <div class="inputVeld">
+            <div class="inputVeld">
                 <label for="nagelkleur">
                     Kies 4 basiskleuren voor uw nagels:<br>
                     <input type="color" id="nagelkleur" name="nagelkleur[]" value="#f0b7b7">
@@ -129,18 +129,18 @@ $result = $statement->fetch(PDO::FETCH_OBJ);
                 </label>
             </div>
 
-            <div class="inputVeld">
-                <label for="soort">
-                    Soort behandeling:<br>
-                    <input type="checkbox" id="soort" name="soort[]" value="nagelbijt">
-                    <label for="nagelbijt">Nagelbijt arrangement €180,-</label><br>
+            <div class=" inputVeld">
+                    <label for="soort">
+                        Soort behandeling:<br>
+                        <input type="checkbox" id="soort" name="soort[]" value="nagelbijt">
+                        <label for="nagelbijt">Nagelbijt arrangement €180,-</label><br>
 
-                    <input type="checkbox" id="soort" name="soort[]" value="luxeMani">
-                    <label for="luxeMani">Luxe manicure €30,-</label><br>
+                        <input type="checkbox" id="soort" name="soort[]" value="luxeMani">
+                        <label for="luxeMani">Luxe manicure €30,-</label><br>
 
-                    <input type="checkbox" id="soort" name="soort[]" value="nagelReparatie">
-                    <label for="nagelReparatie">Nagelreparatie per nagel €5,-</label><br>
-                </label>
+                        <input type="checkbox" id="soort" name="soort[]" value="nagelReparatie">
+                        <label for="nagelReparatie">Nagelreparatie per nagel €5,-</label><br>
+                    </label>
             </div>
             <input type="hidden" name="timeSend" id="timeSend" value="">
             <input type="hidden" name="id" value="<?= $_GET['id'] ?>">
