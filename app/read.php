@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="../style/style.css">
 <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 <?php
 
 require('lib/console_log.php');
@@ -41,12 +43,12 @@ foreach ($result as $afspraak) {
                 <td>$afspraak->AfspraakCreated</td>
                 <td>
                     <a href='delete.php?id={$afspraak->Id}'>
-                        <img src='img/b_drop.png' alt=''>
+                        <i class='bx bxs-error-alt' style='color:#ff0000'  ></i>
                     </a>
                 </td>
                 <td>
                     <a href='update.php?id={$afspraak->Id}'>
-                        <img src='img/b_edit.png' alt=''>
+                        <i class='bx bx-edit' style='color:#ff7500'  ></i>
                     </a>
                 </td>
              </tr>";
